@@ -67,4 +67,3 @@ fields:
   label: include_template
 pages:
 - "./test_file.md-copy.md"
-- test_file.md
