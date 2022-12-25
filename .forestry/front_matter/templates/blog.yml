@@ -16,5 +16,54 @@ fields:
     schema:
       format: markdown
   label: description
+- name: number
+  type: number
+  label: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: toggle
+  type: boolean
+  label: toggle
+- name: select_field
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: select_field
+- name: data_field
+  type: datetime
+  label: data_field
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: color_picked
+  type: color
+  label: color_picked
+  config:
+    required: false
+    color_format: Hex
+- name: tag_field
+  type: tag_list
+  default: []
+  label: tag_field
+- name: include_template
+  type: include
+  config: {}
+  template: blog
+  label: include_template
 pages:
 - test_file.md
