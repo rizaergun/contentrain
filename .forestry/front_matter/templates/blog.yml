@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: description
+pages:
+- test_file.md
