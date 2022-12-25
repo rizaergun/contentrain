@@ -1,4 +1,18 @@
 ---
 label: Blog
 hide_body: false
-fields: []
+fields:
+- name: test_label
+  type: text
+  config:
+    required: false
+  label: Test Label
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
